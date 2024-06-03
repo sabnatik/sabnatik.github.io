@@ -1,0 +1,51 @@
+img{
+    width: 100%;
+}
+.header{
+    background-image: url(logo-22.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.nav-item, .navbar-toggler{
+    background-color: #ffffff84;
+}
+.nav-link{
+    color: black;
+}
+.car-foto img{
+transition: 0.5s;
+}
+.car-foto img:hover{
+    transform: scale(2);
+    border-radius: 5px;
+}
+.col-foto{
+/* overflow: hidden; */
+}
+.car-title{
+    text-align: center;
+    border-bottom: 1px solid #024787;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    padding: 15px 0;
+}
+header{
+    background-color: #add2ee;
+    padding: 67px 0;
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    background-color: #1a1a1a;
+    color: #add2ee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
